@@ -1,7 +1,7 @@
 const music = new Audio('audio/3.mp3');
 // music.play();
 
-// create array 
+// create array for song
 const songs = [
     {
         id:'1',
