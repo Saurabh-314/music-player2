@@ -1,4 +1,4 @@
-const music = new Audio('audio/3.mp3');
+const music = new Audio('audio/1.mp3');
 // music.play();
 
 // create array for song
@@ -123,8 +123,8 @@ let title = document.getElementById('title');
 Array.from(document.getElementsByClassName('playListPlay')).forEach((element) => {
     element.addEventListener("click",(e)=>{
         index = e.target.id;
-        makeAllPlays();
         console.log(index);
+        makeAllPlays();
         e.target.classList.remove('bi-play-circle-fill');
         e.target.classList.add('bi-pause-circle-fill');
         music.src = `audio/${index}.mp3`;
