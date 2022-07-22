@@ -76,8 +76,8 @@ const songs = [
     },
     {
         id: '15',
-        songName: ` Alan Walker- Faded <br> <div class="subtitle">Alar Walker</div>`,
-        poster: "img/15.jpg"
+        songName: ` The Drum <br> <div class="subtitle">Alar Walker</div>`,
+        poster: "img/5.jpg"
     }
 ]
 
